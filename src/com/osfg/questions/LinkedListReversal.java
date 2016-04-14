@@ -6,10 +6,15 @@ import com.osfg.models.ListNode;
 /**
  * @author athakur
  *
- *	Interview question for LinkedList reversal
+ *	Question : Reverse a Linked List
  */
 public class LinkedListReversal {
 	
+	/**
+	 * Iterative approach
+	 * @param originalList
+	 * @return reversed linked list
+	 */
 	public static ListNode getReverseLinkedListIterative(ListNode originalList) {
 		
 		if(originalList == null || originalList.getNext() == null) {
@@ -32,6 +37,11 @@ public class LinkedListReversal {
 		
 	}
 	
+	/**
+	 * Recursive approach
+	 * @param originalList
+	 * @return reversed linked list
+	 */
 	public static ListNode getReverseLinkedListRecursive(ListNode originalList) {
 		
 		if(originalList == null || originalList.getNext() == null) {
@@ -51,6 +61,7 @@ public class LinkedListReversal {
 		
 	}	
 	
+	//Main method - tests
 	public static void main(String args[]) {
 		
 		ListNode linkedList = DSFactory.getLinkedList();

@@ -19,6 +19,16 @@ public class DSFactory {
 		first.setNext(second);
 		second.setNext(third);
 		return head;
+	}
+	
+	public static int[] getArray(boolean sorted) {
+		
+		if(sorted) {
+			return new int[]{2, 3, 3, 7, 9, 12, 15, 15, 15};
+		}
+		else {
+			return new int[]{15, 9, 20, 16 ,4, 1, 7};
+		}
 		
 	}
 	
