@@ -3,7 +3,7 @@ package com.osfg.questions;
 /**
  * 
  * @author athakur
- *	Question : Fing GCD of two numbers
+ *	Question : Finding GCD of two numbers
  */
 public class GCDFinder {
 
