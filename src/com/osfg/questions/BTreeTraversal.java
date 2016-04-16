@@ -6,7 +6,7 @@ import com.osfg.utils.BTreePrinter;
 /**
  * 
  * @author athakur
- * Question : Print BTres in pre order, post order, in order and level order
+ * Question : Print BTree in pre order, post order, in order and level order
  */
 public class BTreeTraversal {
 
