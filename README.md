@@ -8,3 +8,6 @@
 2. Get Square Root of a given number
 3. Count Occurance of a given number in sorted array
 4. Finding GCD of two numbers
+5. Print all valid combinations of groups of parenthesis
+6. Convert a double number to rational
+7. String Permutation
