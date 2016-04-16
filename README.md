@@ -14,3 +14,4 @@
 8. Find the 1st index of a given number in a sorted array allowing duplicates - IndexInSortedArray.java
 9. Verify if a binary tree is a Binary Search Tree (BST) - BSTVerifier.java
 10. Print BTree in pre order, post order, in order and level order - BTreeTraversal.java
+11. Verify if a string is a rotated palindrome - RotatedPalindrome.java
