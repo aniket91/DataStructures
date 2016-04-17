@@ -16,3 +16,4 @@
 10. Print BTree in pre order, post order, in order and level order - BTreeTraversal.java
 11. Verify if a string is a rotated palindrome - RotatedPalindrome.java
 12. Print all pairs in a sorted array that sum to M - PairsWithSumFinder.java
+13. Use stack (LIFO) to simulate queue (FIFO) - QueueWithStack.java
