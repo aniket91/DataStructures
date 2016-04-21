@@ -16,9 +16,11 @@ public class DSFactory {
 		ListNode first = new ListNode(1);
 		ListNode second = new ListNode(2);
 		ListNode third = new ListNode(3);
+		ListNode fourth = new ListNode(4);
 		head.setNext(first);
 		first.setNext(second);
 		second.setNext(third);
+		third.setNext(fourth);
 		return head;
 	}
 	
