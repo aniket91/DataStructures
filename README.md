@@ -17,3 +17,5 @@
 11. Verify if a string is a rotated palindrome - RotatedPalindrome.java
 12. Print all pairs in a sorted array that sum to M - PairsWithSumFinder.java
 13. Use stack (LIFO) to simulate queue (FIFO) - QueueWithStack.java
+14. There are two sorted arrays. First one is of size m+n containing only m elements. Another one is of size n and contains n elements. Merge these two arrays into the first array of size m+n such that the output is sorted - SortedArraysMerger.java
+15. Verify if strings are rotations of each other or not - RotatedString.java
