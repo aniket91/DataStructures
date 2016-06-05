@@ -20,3 +20,5 @@
 14. There are two sorted arrays. First one is of size m+n containing only m elements. Another one is of size n and contains n elements. Merge these two arrays into the first array of size m+n such that the output is sorted - SortedArraysMerger.java
 15. Verify if strings are rotations of each other or not - RotatedString.java
 16. To design a tiny URL or URL shortener - ShortURLGenerator.java
+17. Write a Pseudo code to parse a String and and evaluate expressions  - StringExpressionEvaluator.java
+18. Code to find number of ways to cover n stairs when you can take 1 or 2 step at a time - StairwayClimbWaysFinder.java
