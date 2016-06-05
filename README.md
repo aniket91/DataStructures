@@ -23,3 +23,4 @@
 17. Write a Pseudo code to parse a String and and evaluate expressions  - StringExpressionEvaluator.java
 18. Code to find number of ways to cover n stairs when you can take 1 or 2 step at a time - StairwayClimbWaysFinder.java
 19. Generic implementation of BlockingQueue - BlockingQueue.java
+20. Simple thread pool implementation in Java - ThreadPoolManager.java
