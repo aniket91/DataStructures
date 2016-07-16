@@ -1,6 +1,10 @@
 package com.osfg.factory;
 
 import com.osfg.models.ListNode;
+
+import java.util.Arrays;
+import java.util.Random;
+
 import com.osfg.models.BTreeNode;
 
 /**
@@ -74,4 +78,27 @@ public class DSFactory {
 		
 	}
 	
+	/**
+	 * 
+	 * @param sorted if array is sorted
+	 * @param arraySize size of the array to be created
+	 * @param maxBound elements will be in range 0 - maxBound
+	 * @return
+	 */
+	public static int[] getArray(boolean sorted, int arraySize, int maxBound) {
+		
+		Random random = new Random();
+		int[] array = new int[arraySize];
+		
+		for(int i=0; i< arraySize;i++) {
+			array[i] = random.nextInt(maxBound);
+		}
+		
+		if(sorted) {
+			Arrays.sort(array);
+		}
+		
+		return array;
+		
+	}
 }

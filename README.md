@@ -1,4 +1,4 @@
-![Data Structures](https://3.bp.blogspot.com/-aQNOpvozWPY/VxDwH9I7rkI/AAAAAAAALBw/HV8HnUoejgoeg1GeVbF9lsbXpIKF6Q7mwCLcB/s1600/data-structures.png)
+`![Data Structures](https://3.bp.blogspot.com/-aQNOpvozWPY/VxDwH9I7rkI/AAAAAAAALBw/HV8HnUoejgoeg1GeVbF9lsbXpIKF6Q7mwCLcB/s1600/data-structures.png)
 
 # DataStructures Interview Questions
 
@@ -24,3 +24,4 @@
 18. Code to find number of ways to cover n stairs when you can take 1 or 2 step at a time - StairwayClimbWaysFinder.java
 19. Generic implementation of BlockingQueue - BlockingQueue.java
 20. Simple thread pool implementation in Java - ThreadPoolManager.java
+21. Merge an array of size n into another array of size m+n - MPlusNArrayMerge.java
