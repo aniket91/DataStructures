@@ -25,3 +25,4 @@
 19. Generic implementation of BlockingQueue - BlockingQueue.java
 20. Simple thread pool implementation in Java - ThreadPoolManager.java
 21. Merge an array of size n into another array of size m+n - MPlusNArrayMerge.java
+22. Given a number n, print all primes smaller than or equal to n - PrimeNumberPrinter.java
