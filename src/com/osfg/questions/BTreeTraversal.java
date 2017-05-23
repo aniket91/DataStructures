@@ -30,6 +30,17 @@ public class BTreeTraversal {
 		BTreePrinter.printLevelOrderTraversal(DSFactory.getBTree());
 		System.out.println("---------------");
 		
+		System.out.println("Height : ");
+		System.out.println(BTreePrinter.getHeight(DSFactory.getBTree()));
+		System.out.println("---------------");
+		
+		System.out.println("Spiral order recurssive : ");
+		BTreePrinter.printSpiralRecurssive(DSFactory.getBTree());
+		System.out.println("---------------");
+		
+		System.out.println("Spiral order recurssive : ");
+		BTreePrinter.printSpiralRecurssive(DSFactory.getBTree());
+		System.out.println("---------------");
 	}
 	
 }

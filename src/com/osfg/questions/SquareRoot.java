@@ -31,7 +31,7 @@ public class SquareRoot {
 		
 		while(end - start > precision) {
 			double mid  = (start + end) / 2;
-			double sqr = mid * mid;
+			double sqr = Math.pow(mid, 2);
 			if(sqr == data) {
 				return mid;
 			}
@@ -51,10 +51,10 @@ public class SquareRoot {
 	public static void main(String args[]) {
 		
 		System.out.println("Square root of 9 : " + sqrt(9));
-		System.out.println("Square root of 9 : " + sqrt(100));
-		System.out.println("Square root of 9 : " + sqrt(81));
-		System.out.println("Square root of 9 : " + sqrt(24));
-		System.out.println("Square root of 9 : " + sqrt(1));
+		System.out.println("Square root of 100 : " + sqrt(100));
+		System.out.println("Square root of 81 : " + sqrt(81));
+		System.out.println("Square root of 24 : " + sqrt(24));
+		System.out.println("Square root of 1 : " + sqrt(1));
 		
 	}
 

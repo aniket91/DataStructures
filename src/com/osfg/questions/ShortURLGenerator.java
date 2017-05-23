@@ -7,7 +7,7 @@ package com.osfg.questions;
  * Question  : To design a tiny URL or URL shortener
  * 
  * Solution : One way to achieve this would be hashing. But there may be collision and two short
- * string may map to same long one. Better was is to use itenger id stored in DB
+ * string may map to same long one. Better was is to use integer id stored in DB
  */
 public class ShortURLGenerator {
 	
