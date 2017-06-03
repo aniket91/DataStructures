@@ -27,3 +27,5 @@
 21. Merge an array of size n into another array of size m+n - MPlusNArrayMerge.java
 22. Given a number n, print all primes smaller than or equal to n - PrimeNumberPrinter.java
 23. Print BTree is spiral order - BTreeTraversal.java
+24. Given an array of positive integers, arrange the numbers to form the largest possible number - FormLargestNumber.java
+25. Give a circle with center (0,0) and a radius r (integer > 0), find the number of points (x,y) on the circumference such that x and y both are integers - FormLargestNumber.java
