@@ -5,19 +5,19 @@ package com.osfg.models;
  * @author athakur
  * Model class for Linked List Node
  */
-public class ListNode {
+public class ListNode<E> {
 	
-	private int value;
+	private E value;
 	private ListNode next;
 	
-	public ListNode(int value) {
+	public ListNode(E value) {
 		this.value = value;
 	}
 	
-	public int getValue() {
+	public E getValue() {
 		return value;
 	}
-	public void setValue(int value) {
+	public void setValue(E value) {
 		this.value = value;
 	}
 	public ListNode getNext() {

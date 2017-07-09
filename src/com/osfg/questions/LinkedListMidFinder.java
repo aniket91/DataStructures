@@ -17,14 +17,14 @@ public class LinkedListMidFinder {
 	 * @param root
 	 * @return center of the list
 	 */
-	public static ListNode findLLMid(ListNode root) {
+	public static ListNode<Integer> findLLMid(ListNode<Integer> root) {
 		
 		if(root == null) {
 			return null;
 		}
 		
-		ListNode current = root;
-		ListNode middle = root;
+		ListNode<Integer> current = root;
+		ListNode<Integer> middle = root;
 		
 		while(current.getNext() != null && current.getNext().getNext()!=null) {
 			middle = middle.getNext();
@@ -40,14 +40,14 @@ public class LinkedListMidFinder {
 	 * @param n
 	 * @return (1/n)th node
 	 */
-	public static ListNode findoneByNth(ListNode root, int n) {
+	public static ListNode<Integer> findoneByNth(ListNode<Integer> root, int n) {
 		
 		if(root == null) {
 			return null;
 		}
 		
-		ListNode current = root;
-		ListNode middle = root;
+		ListNode<Integer> current = root;
+		ListNode<Integer> middle = root;
 		
 		// 0 1 2 3 4
 		
@@ -61,9 +61,9 @@ public class LinkedListMidFinder {
 	}
 	
 	public static void main(String args[]) {
-		System.out.println(findLLMid(DSFactory.getLinkedList()).getValue());
-		System.out.println(findoneByNth(DSFactory.getLinkedList(),2).getValue());
-		System.out.println(findoneByNth(DSFactory.getLinkedList(),6).getValue());
+		System.out.println(findLLMid(DSFactory.getNumericLinkedList()).getValue());
+		System.out.println(findoneByNth(DSFactory.getNumericLinkedList(),2).getValue());
+		System.out.println(findoneByNth(DSFactory.getNumericLinkedList(),6).getValue());
 	}
 
 }

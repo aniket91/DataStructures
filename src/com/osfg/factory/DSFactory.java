@@ -14,13 +14,17 @@ import com.osfg.models.BTreeNode;
  */
 public class DSFactory {
 
-	public static ListNode getLinkedList() {
+	/**
+	 * 
+	 * @return Singly linked list with numeric data
+	 */
+	public static ListNode<Integer> getNumericLinkedList() {
 		
-		ListNode head = new ListNode(0);
-		ListNode first = new ListNode(1);
-		ListNode second = new ListNode(2);
-		ListNode third = new ListNode(3);
-		ListNode fourth = new ListNode(4);
+		ListNode<Integer> head = new ListNode<>(0);
+		ListNode<Integer> first = new ListNode<>(1);
+		ListNode<Integer> second = new ListNode<>(2);
+		ListNode<Integer> third = new ListNode<>(3);
+		ListNode<Integer> fourth = new ListNode<>(4);
 		head.setNext(first);
 		first.setNext(second);
 		second.setNext(third);
@@ -28,6 +32,11 @@ public class DSFactory {
 		return head;
 	}
 	
+	/**
+	 * 
+	 * @param sorted if array needs to be sorted
+	 * @return array data
+	 */
 	public static int[] getArray(boolean sorted) {
 		
 		if(sorted) {
@@ -40,6 +49,10 @@ public class DSFactory {
 	}
 	
 	
+	/**
+	 * 
+	 * @return binary search tree
+	 */
 	public static BTreeNode getBST() {
 		
 		BTreeNode rootNode = new BTreeNode(10);
@@ -59,6 +72,10 @@ public class DSFactory {
 		
 	}
 	
+	/**
+	 * 
+	 * @return a binary tree
+	 */
 	public static BTreeNode getBTree() {
 		
 		BTreeNode rootNode = new BTreeNode(1);
@@ -100,5 +117,41 @@ public class DSFactory {
 		
 		return array;
 		
+	}
+	
+	/**
+	 * 
+	 * @return singly linked list with palindromic string
+	 */
+	public static ListNode<String> getPalindromicStringLinkedList() {
+		
+		ListNode<String> head = new ListNode<>("a");
+		ListNode<String> first = new ListNode<>("b");
+		ListNode<String> second = new ListNode<>("c");
+		ListNode<String> third = new ListNode<>("b");
+		ListNode<String> fourth = new ListNode<>("a");
+		head.setNext(first);
+		first.setNext(second);
+		second.setNext(third);
+		third.setNext(fourth);
+		return head;
+	}
+	
+	/**
+	 * 
+	 * @return singly linked list consisting of string elements
+	 */
+	public static ListNode<String> getStringLinkedList() {
+		
+		ListNode<String> head = new ListNode<>("a");
+		ListNode<String> first = new ListNode<>("b");
+		ListNode<String> second = new ListNode<>("c");
+		ListNode<String> third = new ListNode<>("e");
+		ListNode<String> fourth = new ListNode<>("f");
+		head.setNext(first);
+		first.setNext(second);
+		second.setNext(third);
+		third.setNext(fourth);
+		return head;
 	}
 }

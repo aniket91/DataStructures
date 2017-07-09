@@ -28,4 +28,5 @@
 22. Given a number n, print all primes smaller than or equal to n - PrimeNumberPrinter.java
 23. Print BTree is spiral order - BTreeTraversal.java
 24. Given an array of positive integers, arrange the numbers to form the largest possible number - FormLargestNumber.java
-25. Give a circle with center (0,0) and a radius r (integer > 0), find the number of points (x,y) on the circumference such that x and y both are integers - FormLargestNumber.java
+25. Give a circle with center (0,0) and a radius r (integer > 0), find the number of points (x,y) on the circumference such that x and y both are integers - IntegralPointsOnCirle.java
+26. Find if a given Singly Linked list is a palindrome or not - LinkedListPalindromeFinder.java

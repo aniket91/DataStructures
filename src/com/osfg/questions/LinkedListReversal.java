@@ -15,19 +15,19 @@ public class LinkedListReversal {
 	 * @param originalList
 	 * @return reversed linked list
 	 */
-	public static ListNode getReverseLinkedListIterative(ListNode originalList) {
+	public static ListNode<Integer> getReverseLinkedListIterative(ListNode<Integer> originalList) {
 		
 		if(originalList == null || originalList.getNext() == null) {
 			return originalList;
 		}
 		
-		ListNode currNode = originalList;
-		ListNode nextNode = currNode.getNext();
+		ListNode<Integer> currNode = originalList;
+		ListNode<Integer> nextNode = currNode.getNext();
 		currNode.setNext(null);
 		
 		
 		while(nextNode != null) {
-			ListNode tempNode = nextNode.getNext();
+			ListNode<Integer> tempNode = nextNode.getNext();
 			nextNode.setNext(currNode);
 			currNode = nextNode;
 			nextNode = tempNode;
@@ -42,14 +42,14 @@ public class LinkedListReversal {
 	 * @param originalList
 	 * @return reversed linked list
 	 */
-	public static ListNode getReverseLinkedListRecursive(ListNode originalList) {
+	public static ListNode<Integer> getReverseLinkedListRecursive(ListNode<Integer> originalList) {
 		
 		if(originalList == null || originalList.getNext() == null) {
 			return originalList;
 		}
 		
-		ListNode remainingRevers = getReverseLinkedListRecursive(originalList.getNext());
-		ListNode curr = remainingRevers;
+		ListNode<Integer> remainingRevers = getReverseLinkedListRecursive(originalList.getNext());
+		ListNode<Integer> curr = remainingRevers;
 		
 		while(curr.getNext() != null) {
 			curr = curr.getNext();
@@ -64,11 +64,11 @@ public class LinkedListReversal {
 	//Main method - tests
 	public static void main(String args[]) {
 		
-		ListNode linkedList = DSFactory.getLinkedList();
+		ListNode<Integer> linkedList = DSFactory.getNumericLinkedList();
 		System.out.println("Original Linked List : " + linkedList);
-		ListNode iterativeReverse = getReverseLinkedListIterative(linkedList);
+		ListNode<Integer> iterativeReverse = getReverseLinkedListIterative(linkedList);
 		System.out.println("Iterative Revered Linked List : " + iterativeReverse);
-		ListNode recursiveReverse = getReverseLinkedListRecursive(iterativeReverse);
+		ListNode<Integer> recursiveReverse = getReverseLinkedListRecursive(iterativeReverse);
 		System.out.println("Recursive Linked List : " + recursiveReverse);
 	}
 	
