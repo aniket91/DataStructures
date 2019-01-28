@@ -122,9 +122,9 @@ public class BTreePrinter {
 	 */
 	public static void printSpiralIterative(BTreeNode root) {
 
-		rightToLeft.push(root);
+		leftToRight.push(root);
 
-		while (!rightToLeft.isEmpty() && !leftToRight.isEmpty()) {
+		while (!rightToLeft.isEmpty() || !leftToRight.isEmpty()) {
 			while (!rightToLeft.isEmpty()) {
 				BTreeNode node = rightToLeft.pop();
 				System.out.println(node.getData());
@@ -137,13 +137,13 @@ public class BTreePrinter {
 			}
 
 			while (!leftToRight.isEmpty()) {
-				BTreeNode node = rightToLeft.pop();
+				BTreeNode node = leftToRight.pop();
 				System.out.println(node.getData());
-				if (node.getLeft() != null) {
-					rightToLeft.push(node.getLeft());
-				}
 				if (node.getRight() != null) {
 					rightToLeft.push(node.getRight());
+				}
+				if (node.getLeft() != null) {
+					rightToLeft.push(node.getLeft());
 				}
 			}
 		}

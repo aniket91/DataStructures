@@ -38,8 +38,8 @@ public class BTreeTraversal {
 		BTreePrinter.printSpiralRecurssive(DSFactory.getBTree());
 		System.out.println("---------------");
 		
-		System.out.println("Spiral order recurssive : ");
-		BTreePrinter.printSpiralRecurssive(DSFactory.getBTree());
+		System.out.println("Spiral order interative : ");
+		BTreePrinter.printSpiralIterative(DSFactory.getBTree());
 		System.out.println("---------------");
 	}
 	
