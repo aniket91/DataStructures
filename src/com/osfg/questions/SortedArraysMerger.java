@@ -15,7 +15,7 @@ public class SortedArraysMerger {
 	
 	/**
 	 * Move all elements to the end in m+n array
-	 * Assuming emty gaps have -1 and original array does not have -1
+	 * Assuming empty gaps have -1 and original array does not have -1
 	 * @param mPlusNArray
 	 */
 	public static void setup(int[] mPlusNArray) {

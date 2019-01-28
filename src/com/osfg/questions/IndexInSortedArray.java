@@ -5,7 +5,7 @@ import com.osfg.factory.DSFactory;
 /**
  * 
  * @author athakur
- * Quesrion : Find the 1st index of a given number in a sorted array allowing duplicates
+ * Question : Find the 1st index of a given number in a sorted array allowing duplicates
  */
 public class IndexInSortedArray {
 	

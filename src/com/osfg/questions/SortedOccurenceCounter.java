@@ -5,7 +5,7 @@ import com.osfg.factory.DSFactory;
 /**
  * 
  * @author athakur
- * Question : Count Occurance of a given number in sorted array
+ * Question : Count Occurrence of a given number in sorted array
  */
 public abstract class SortedOccurenceCounter {
 	

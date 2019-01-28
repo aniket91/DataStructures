@@ -9,7 +9,7 @@ import com.osfg.models.BlockingQueue;
  */
 public class ThreadPoolManager {
 	
-	//assuming size og queue to be 10
+	//assuming size of queue to be 10
 	private final BlockingQueue<Runnable> threadPoolQueue = new BlockingQueue<Runnable>(10);;
 	private final int MAX_THREAD_POOL_SIZE;
 	
